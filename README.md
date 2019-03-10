@@ -1,49 +1,34 @@
-# JGU WEKA Rest Service
+## Build the Docker Image
 
-RESTful API Webservice to WEKA Machine Learning Algorithms.
-This webservice provides an [OpenRiskNet](https://openrisknet.org/) compliant REST interface to machine learning algorithms from the WEKA Java Library.
-This application is developed by the [Institute of Computer Science](http://www.datamining.informatik.uni-mainz.de/) at the Johannes Gutenberg University Mainz.
-OpenRiskNet is funded by the European Commission GA 731075. WEKA is developed by the [Machine Learning Group](https://www.cs.waikato.ac.nz/ml/index.html) at the University of Waikato.
+* Download the source code from Github
+`git clone git@github.com:username/reponame.git`
+* Change into code directory
+`cd reponame`
+* Checkout branch (optional)
+  ***master*** for OpenAPI 3.0.1
+  `git checkout master`
+* Compile the war (Web Application Archive) file with maven
+  `mvn clean package`
+* Build the docker image (replace dockerhubuser with your docker hub account user)
+  `docker build -t dockerhubuser/reponame:tag .`
+* Check images
+  `docker images`
 
-See [Documentation](https://jguwekarest.github.io/jguwekarest/), [Issue Tracker](https://github.com/jguwekarest/jguwekarest/issues) and [Code](https://github.com/jguwekarest/jguwekarest) at GitHub.
+## Run the Docker Container
 
-## Quickstart
-This is an a swagger-enabled JAX-RS server. The API is in OpenAPI Specification Version 3.0.1 [OpenAPI-Specification 3.0.1](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.1.md)
-The service uses the [JAX-RS](https://jax-rs-spec.java.net/) framework.
+* Run the image as a local container 
+`docker run -p 8080:8080 --link mongodb:mongodb user/reponame:tag`
+* If you run the container locally don't forget to start also a mongodb container as a data base with:
+`docker pull mongo; docker run --name mongodb -d mongo`
+* Load the Swagger-UI representation in a web-browser
+e.g.: `firefox http://0.0.0.0:8080`
 
-To run a simple local environment, please execute the following:
+## Push docker image to dockerhub
 
-```
-mvn clean package jetty:run
-```
+*Tag you image correctly, run this command if necessary
+`docker tag local-image:tagname reponame:tagname`
+*Login you docker account if not already done.
+`docker login`
+*Push your image to your account
+`docker push reponame:tagname`
 
-You can then view the full Rest API on Swagger-UI here:
-
-```
-http://0.0.0.0:8081
-```
-
-To connect the server to a mongodb database you can use a standard mongo docker image pulled from docker hub:
-
-```
-docker pull mongo
-docker run -d mongo
-```
-
-### *curl* Example
-
-POST an arff file to the WEKA BayesNet algorithm using curl:
-```
-curl  -X POST -H "Content-Type: multipart/form-data" -H "Accept:text/x-arff" -F "file=@/yourpathtowekadata/weka-3-8-1/data/weather.nominal.arff;" -F "estimatorParams=0.5"  -F "searchAlgorithm=local.K2" -F useADTree=0 -F "estimator=SimpleEstimator" -F searchParams='-P 1 -S BAYES' http://0.0.0.0:8081/algorithm/BayesNet
-```
-
-## Documentation
-
- * Full example for a **[local or server hosted development environment](./doc/DockerizedDevEnvSetup.md).** 
- * Docker Deployment: **[Build the Docker image with a Dockerfile](./doc/DockerImageDeployment.md)**.
- * Running tests: **[Run Tests](./doc/Testing.md)**.
- * OpenShift Deployment: **[Deployment in OpenShift](./openshift/README.md)**.
- * Commandline Examples with Curl: **[Curl Examples](./doc/CommandlineCurlExamples.md)**.
- * Authentication: **[Keycloak Integration](./doc/TomcatKeyCloakSetup.md)**.
- * Java Docs on gh-pages: **[JavaDocs](https://jguwekarest.github.io/jguwekarest/javadoc/index.html)**.
- 

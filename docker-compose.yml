@@ -2,11 +2,11 @@ version: '3'
 services:
   mongo:
     image: mongo
-    container_name: jguwekamongo
+    container_name: wekamongo
     restart: always
   jguweka:
-    image: jguweka/jguweka:OAS3
-    container_name: jguwekarest
+    image: chloec/log8371-tp2:weka
+    container_name: wekarest
     restart: always
     links:
       - "mongo:mongodb"
@@ -15,6 +15,6 @@ services:
     depends_on:
       - mongo
     labels:
-      - "service-name:jguweka"
+      - "service-name:weka"
       - "service-type:app-srv"
       - "environment:test"
