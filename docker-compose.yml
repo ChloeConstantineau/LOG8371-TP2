@@ -4,7 +4,7 @@ services:
     image: mongo
     container_name: wekamongo
     restart: always
-  jguweka:
+  wekarest:
     image: chloec/log8371-tp2:weka
     container_name: wekarest
     restart: always
