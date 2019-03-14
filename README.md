@@ -23,6 +23,14 @@
 * Load the Swagger-UI representation in a web-browser
 e.g.: `firefox http://0.0.0.0:8080`
 
+## Run the containers with Docker Compose
+
+* Check the docekr-compose.yml file. Verify that the image under the jguweka service is in your local file. If not, change the image for your weka REST image that you build in the first part of this README
+* Run the command :
+`docker-compose up`
+* To take down the services, press Ctrl + C or run the command: 
+`docker-compose down`
+
 ## Push docker image to dockerhub
 
 *Tag you image correctly, run this command if necessary
