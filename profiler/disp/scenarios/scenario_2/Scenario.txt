@@ -1,0 +1,16 @@
+Requete: http://localhost:8081/algorithm/NaiveBayes
+headers:
+[{"key":"Content-Type","value":"","description":"","type":"text","enabled":true},
+{"key":"Accept","value":"text/uri-list","description":"","type":"text","enabled":true},
+{"key":"Connection","value":"keep-alive","description":"","type":"text","enabled":true},{"key":"Content-Type","value":"multipart/form-data","description":"","type":"text","enabled":true}]
+Parameters: 
+[
+{"key":"batchSize","value":"100"},
+{"key":"useKernelEstimator","value":"0"},
+{"key":"useSupervisedDiscretization","value":"0"},
+{"key":"validation","value":"CrossValidation"},
+{"key":"validationNum","value":"10"},
+{"key":"file",value:""}]
+
+Nombre de requetes : 10,
+Fichier: dataset.arff

@@ -2,16 +2,19 @@ version: '3'
 services:
   mongo:
     image: mongo
-    container_name: wekamongo
+    container_name: mongodb
+    ports:
+      - "27017:27017"
     restart: always
   wekarest:
-    image: chloec/log8371-tp2:weka
+    image: ecgrimard/log8371-tp2:tag
     container_name: wekarest
     restart: always
     links:
       - "mongo:mongodb"
     ports:
       - "8081:8080"
+      - "8849:8849"
     depends_on:
       - mongo
     labels:
