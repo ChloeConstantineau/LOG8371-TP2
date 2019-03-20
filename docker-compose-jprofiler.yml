@@ -1,0 +1,23 @@
+version: '3'
+services:
+  mongo:
+    image: mongo
+    container_name: mongodb
+    ports:
+      - "27017:27017"
+    restart: always
+  wekarestjprofiler:
+    image: jprofilerweka:tag
+    container_name: wekarestjprofiler
+    restart: always
+    links:
+      - "mongo:mongodb"
+    ports:
+      - "8081:8080"
+      - "8849:8849"
+    depends_on:
+      - mongo
+    labels:
+      - "service-name:weka"
+      - "service-type:app-srv"
+      - "environment:test"
