@@ -26,23 +26,23 @@ e.g.: `firefox http://0.0.0.0:8080`
 
 ## Run the containers with Docker Compose - no deploy in the docker-compose.yml file
 
-* Check the docekr-compose.yml file. Verify that the image under the wekarest service is in your local file. If not, change the image for your weka REST image that you build in the first part of this README
+* Check the docker-compose.yml file. Verify that the image under the wekarest service is in your local file. If not, change the image for your weka REST image that you build in the first part of this README
 * Run the command :
-`docker-compose up`
+`docker-compose --file FILENAME up`
 * To take down the services, press Ctrl + C or run the command: 
 `docker-compose down`
 
 ## Run a docker swarm - with scale/deploy method in the docker-compose.yml file
 
 * First create your swarm
-`docker swarn init`
-* Deploy you swarm with the configurations in your docker-compose.yaml
+`docker swarm init`
+* Deploy you swarm with the configurations in your docker-compose.yml
 `docker stack deploy -c docker-compose.yml aName`
 * Attest to your many services/containers/stack by running with these commands :
-`docker service ls`
-`docker container ls -q`
+`docker service ls`;
+`docker container ls -q`;
 `docker stack ps`
-* If you want to change your configuration for example the number of replicas, simply modify your docker-compose.yaml, save the file and run the following command :
+* If you want to change your configuration for example the number of replicas, simply modify your docker-compose.yml, save the file and run the following command :
 `docker stack deploy -c docker-compose.yml aName`
 * To take down your stack:
 `docker stack rm aName`

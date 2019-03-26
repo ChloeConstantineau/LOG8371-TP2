@@ -9,3 +9,83 @@ timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success
 1553627926564,30129,HTTP Request Scenario 1,200,OK,Thread Group 1-8,text,true,,293,385935,3,3,http://localhost:8081/algorithm/NaiveBayes,30129,0,1
 1553627927064,30168,HTTP Request Scenario 1,200,OK,Thread Group 1-9,text,true,,293,385991,2,2,http://localhost:8081/algorithm/NaiveBayes,30168,0,0
 1553627927566,30111,HTTP Request Scenario 1,200,OK,Thread Group 1-10,text,true,,293,385927,1,1,http://localhost:8081/algorithm/NaiveBayes,30111,0,2
+1553632964472,38,HTTP Request Scenario 1,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to localhost:8081 [localhost/127.0.0.1] failed: Connection refused (Connection refused),Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.conn.HttpHostConnectException]]]
+
+****** comparison: [[[200                                                                  ]]]
+
+/",2716,0,1,1,http://localhost:8081/algorithm/NaiveBayes,0,0,37
+1553632964842,7,HTTP Request Scenario 1,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to localhost:8081 [localhost/127.0.0.1] failed: Connection refused (Connection refused),Thread Group 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.conn.HttpHostConnectException]]]
+
+****** comparison: [[[200                                                                  ]]]
+
+/",2716,0,1,1,http://localhost:8081/algorithm/NaiveBayes,0,0,6
+1553632965338,4,HTTP Request Scenario 1,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to localhost:8081 [localhost/127.0.0.1] failed: Connection refused (Connection refused),Thread Group 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.conn.HttpHostConnectException]]]
+
+****** comparison: [[[200                                                                  ]]]
+
+/",2716,0,1,1,http://localhost:8081/algorithm/NaiveBayes,0,0,4
+1553632965829,3,HTTP Request Scenario 1,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to localhost:8081 [localhost/127.0.0.1] failed: Connection refused (Connection refused),Thread Group 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.conn.HttpHostConnectException]]]
+
+****** comparison: [[[200                                                                  ]]]
+
+/",2716,0,1,1,http://localhost:8081/algorithm/NaiveBayes,0,0,3
+1553632966336,3,HTTP Request Scenario 1,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to localhost:8081 [localhost/127.0.0.1] failed: Connection refused (Connection refused),Thread Group 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.conn.HttpHostConnectException]]]
+
+****** comparison: [[[200                                                                  ]]]
+
+/",2716,0,1,1,http://localhost:8081/algorithm/NaiveBayes,0,0,3
+1553632966836,2,HTTP Request Scenario 1,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to localhost:8081 [localhost/127.0.0.1] failed: Connection refused (Connection refused),Thread Group 1-6,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.conn.HttpHostConnectException]]]
+
+****** comparison: [[[200                                                                  ]]]
+
+/",2716,0,1,1,http://localhost:8081/algorithm/NaiveBayes,0,0,2
+1553632967333,5,HTTP Request Scenario 1,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to localhost:8081 [localhost/127.0.0.1] failed: Connection refused (Connection refused),Thread Group 1-7,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.conn.HttpHostConnectException]]]
+
+****** comparison: [[[200                                                                  ]]]
+
+/",2716,0,1,1,http://localhost:8081/algorithm/NaiveBayes,0,0,5
+1553632967830,2,HTTP Request Scenario 1,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to localhost:8081 [localhost/127.0.0.1] failed: Connection refused (Connection refused),Thread Group 1-8,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.conn.HttpHostConnectException]]]
+
+****** comparison: [[[200                                                                  ]]]
+
+/",2716,0,1,1,http://localhost:8081/algorithm/NaiveBayes,0,0,2
+1553632968326,3,HTTP Request Scenario 1,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to localhost:8081 [localhost/127.0.0.1] failed: Connection refused (Connection refused),Thread Group 1-9,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.conn.HttpHostConnectException]]]
+
+****** comparison: [[[200                                                                  ]]]
+
+/",2716,0,1,1,http://localhost:8081/algorithm/NaiveBayes,0,0,3
+1553632968820,5,HTTP Request Scenario 1,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to localhost:8081 [localhost/127.0.0.1] failed: Connection refused (Connection refused),Thread Group 1-10,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: org.apache.http.conn.HttpHostConnectException]]]
+
+****** comparison: [[[200                                                                  ]]]
+
+/",2716,0,1,1,http://localhost:8081/algorithm/NaiveBayes,0,0,4
+1553633038998,954,HTTP Request Scenario 1,200,OK,Thread Group 1-2,text,true,,313,385943,3,3,http://localhost:8081/algorithm/NaiveBayes,953,0,3
+1553633039501,452,HTTP Request Scenario 1,200,OK,Thread Group 1-3,text,true,,313,385975,3,3,http://localhost:8081/algorithm/NaiveBayes,450,0,2
+1553633038643,1308,HTTP Request Scenario 1,200,OK,Thread Group 1-1,text,true,,313,385959,3,3,http://localhost:8081/algorithm/NaiveBayes,1308,0,31
+1553633039993,50,HTTP Request Scenario 1,200,OK,Thread Group 1-4,text,true,,313,385999,1,1,http://localhost:8081/algorithm/NaiveBayes,50,0,2
+1553633040484,47,HTTP Request Scenario 1,200,OK,Thread Group 1-5,text,true,,313,385919,1,1,http://localhost:8081/algorithm/NaiveBayes,47,0,3
+1553633040993,170,HTTP Request Scenario 1,200,OK,Thread Group 1-6,text,true,,313,385967,1,1,http://localhost:8081/algorithm/NaiveBayes,169,0,8
+1553633041504,137,HTTP Request Scenario 1,200,OK,Thread Group 1-7,text,true,,313,385967,1,1,http://localhost:8081/algorithm/NaiveBayes,137,0,3
+1553633042000,245,HTTP Request Scenario 1,200,OK,Thread Group 1-8,text,true,,313,385991,1,1,http://localhost:8081/algorithm/NaiveBayes,245,0,2
+1553633042499,219,HTTP Request Scenario 1,200,OK,Thread Group 1-9,text,true,,313,385951,1,1,http://localhost:8081/algorithm/NaiveBayes,219,0,1
+1553633042987,107,HTTP Request Scenario 1,200,OK,Thread Group 1-10,text,true,,313,385967,1,1,http://localhost:8081/algorithm/NaiveBayes,107,0,1

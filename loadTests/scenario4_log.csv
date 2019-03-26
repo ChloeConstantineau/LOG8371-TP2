@@ -33,3 +33,49 @@ timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success
 1553625479095,46076,HTTP Request Scenario 4,200,OK,Thread Group 1-6,text,true,,313,55534426,3,3,http://localhost:8081/algorithm/NaiveBayes,46076,0,1
 1553625480595,46035,HTTP Request Scenario 4,200,OK,Thread Group 1-9,text,true,,313,55534498,2,2,http://localhost:8081/algorithm/NaiveBayes,46035,0,1
 1553625478099,48612,HTTP Request Scenario 4,200,OK,Thread Group 1-4,text,true,,313,55534434,1,1,http://localhost:8081/algorithm/NaiveBayes,48612,0,1
+1553633379929,30008,HTTP Request Scenario 4,500,Internal Server Error,Thread Group 1-9,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",6645,55534458,10,10,http://localhost:8081/algorithm/NaiveBayes,30000,0,2
+1553633376233,37252,HTTP Request Scenario 4,500,Internal Server Error,Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",6645,55534466,9,9,http://localhost:8081/algorithm/NaiveBayes,37252,0,52
+1553633376480,45354,HTTP Request Scenario 4,500,Internal Server Error,Thread Group 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",6645,55534418,8,8,http://localhost:8081/algorithm/NaiveBayes,45354,0,3
+1553633377501,45264,HTTP Request Scenario 4,500,Internal Server Error,Thread Group 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",6645,55534434,7,7,http://localhost:8081/algorithm/NaiveBayes,45264,0,5
+1553633378947,46262,HTTP Request Scenario 4,500,Internal Server Error,Thread Group 1-7,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",3910,55534450,6,6,http://localhost:8081/algorithm/NaiveBayes,46262,0,18
+1553633378476,46743,HTTP Request Scenario 4,500,Internal Server Error,Thread Group 1-6,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",3910,55534418,5,5,http://localhost:8081/algorithm/NaiveBayes,46742,0,2
+1553633380427,50206,HTTP Request Scenario 4,200,OK,Thread Group 1-10,text,true,,313,55534482,4,4,http://localhost:8081/algorithm/NaiveBayes,50206,0,9
+1553633379446,51331,HTTP Request Scenario 4,200,OK,Thread Group 1-8,text,true,,313,55534498,3,3,http://localhost:8081/algorithm/NaiveBayes,51331,0,3
+1553633377979,52836,HTTP Request Scenario 4,200,OK,Thread Group 1-5,text,true,,313,55534482,2,2,http://localhost:8081/algorithm/NaiveBayes,52836,0,4
+1553633376972,53992,HTTP Request Scenario 4,200,OK,Thread Group 1-3,text,true,,313,55534490,1,1,http://localhost:8081/algorithm/NaiveBayes,53992,0,6
