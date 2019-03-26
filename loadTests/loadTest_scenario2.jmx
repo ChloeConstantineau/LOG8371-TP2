@@ -30,8 +30,8 @@
           <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="HTTP Request Scenario 2" enabled="true">
             <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
               <collectionProp name="HTTPFileArgs.files">
-                <elementProp name=".\dataset2.arff" elementType="HTTPFileArg">
-                  <stringProp name="File.path">.\dataset2.arff</stringProp>
+                <elementProp name="./dataset2.arff" elementType="HTTPFileArg">
+                  <stringProp name="File.path">./dataset2.arff</stringProp>
                   <stringProp name="File.paramname">file</stringProp>
                   <stringProp name="File.mimetype">multipart/form-data</stringProp>
                 </elementProp>
