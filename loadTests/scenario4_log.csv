@@ -1,0 +1,35 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1553625476599,31839,HTTP Request Scenario 4,500,Internal Server Error,Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",6645,55534466,10,10,http://localhost:8081/algorithm/NaiveBayes,31839,0,1
+1553625477096,34848,HTTP Request Scenario 4,500,Internal Server Error,Thread Group 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",6645,55534450,9,9,http://localhost:8081/algorithm/NaiveBayes,34848,0,0
+1553625479596,38173,HTTP Request Scenario 4,500,Internal Server Error,Thread Group 1-7,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",6645,55534490,8,8,http://localhost:8081/algorithm/NaiveBayes,38173,0,2
+1553625481096,36676,HTTP Request Scenario 4,500,Internal Server Error,Thread Group 1-10,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",6645,55534482,7,7,http://localhost:8081/algorithm/NaiveBayes,36676,0,1
+1553625480096,42659,HTTP Request Scenario 4,200,OK,Thread Group 1-8,text,true,,313,55534490,6,6,http://localhost:8081/algorithm/NaiveBayes,42659,0,1
+1553625477611,47107,HTTP Request Scenario 4,200,OK,Thread Group 1-3,text,true,,313,55534418,5,5,http://localhost:8081/algorithm/NaiveBayes,47107,0,0
+1553625478596,46562,HTTP Request Scenario 4,200,OK,Thread Group 1-5,text,true,,313,55534490,4,4,http://localhost:8081/algorithm/NaiveBayes,46562,0,2
+1553625479095,46076,HTTP Request Scenario 4,200,OK,Thread Group 1-6,text,true,,313,55534426,3,3,http://localhost:8081/algorithm/NaiveBayes,46076,0,1
+1553625480595,46035,HTTP Request Scenario 4,200,OK,Thread Group 1-9,text,true,,313,55534498,2,2,http://localhost:8081/algorithm/NaiveBayes,46035,0,1
+1553625478099,48612,HTTP Request Scenario 4,200,OK,Thread Group 1-4,text,true,,313,55534434,1,1,http://localhost:8081/algorithm/NaiveBayes,48612,0,1

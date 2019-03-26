@@ -1,0 +1,11 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1553628837215,31689,HTTP Request Scenario 4,200,OK,Thread Group 1-1,text,true,,293,55534482,10,10,http://localhost:8081/algorithm/NaiveBayes,31689,0,1
+1553628837714,31190,HTTP Request Scenario 4,200,OK,Thread Group 1-2,text,true,,293,55534434,10,10,http://localhost:8081/algorithm/NaiveBayes,31190,0,1
+1553628841216,33332,HTTP Request Scenario 4,200,OK,Thread Group 1-9,text,true,,293,55534426,8,8,http://localhost:8081/algorithm/NaiveBayes,33332,0,3
+1553628840714,34617,HTTP Request Scenario 4,200,OK,Thread Group 1-8,text,true,,293,55534442,7,7,http://localhost:8081/algorithm/NaiveBayes,34617,0,1
+1553628841717,34899,HTTP Request Scenario 4,200,OK,Thread Group 1-10,text,true,,293,55534418,6,6,http://localhost:8081/algorithm/NaiveBayes,34899,0,2
+1553628839218,38537,HTTP Request Scenario 4,200,OK,Thread Group 1-5,text,true,,293,55534450,5,5,http://localhost:8081/algorithm/NaiveBayes,38537,0,2
+1553628839717,41094,HTTP Request Scenario 4,200,OK,Thread Group 1-6,text,true,,293,55534466,4,4,http://localhost:8081/algorithm/NaiveBayes,41094,0,0
+1553628838751,42074,HTTP Request Scenario 4,200,OK,Thread Group 1-3,text,true,,293,55534450,3,3,http://localhost:8081/algorithm/NaiveBayes,42074,0,3
+1553628840219,40689,HTTP Request Scenario 4,200,OK,Thread Group 1-7,text,true,,293,55534442,2,2,http://localhost:8081/algorithm/NaiveBayes,40689,0,2
+1553628838751,42223,HTTP Request Scenario 4,200,OK,Thread Group 1-4,text,true,,293,55534482,1,1,http://localhost:8081/algorithm/NaiveBayes,42223,0,3
